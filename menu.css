@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    justify-content: center;
+    background-image: url(img/seika.jpg);
+    background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+nav {
+    display: flex;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+.lista-menu{
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    align-items: center;
+}
+
+nav img {
+    height: 100px;
+    border-radius: 20px;
+}
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}

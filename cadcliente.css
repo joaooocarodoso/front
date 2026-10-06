@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    justify-content: center;
+    background-image: url(img/deftones\ wallpaper\ diamond\ eyes.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.5s ease;
+}
+
+nav {
+    display: flex;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+.lista-menu {
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    align-items: center;
+}
+
+nav img {
+    height: 100px;
+    border-radius: 20px;
+}
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    border: none;
+    border-radius: 13px;
+    background-color: rgb(104, 104, 104);
+    width: 400px;
+    height: 420px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 20px #880808;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+}
+
+h1 {
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: #880808;
+}
+
+form {
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    color: #970101;
+}
+
+label {
+    padding: 2px;
+}
+
+input {
+    display: block;
+    margin: 7px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.btn {
+    display: block;
+    margin: auto;
+    border-color: #333;
+}
+
+button {
+    background-color: #ffffff;
+    color: #970101;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+button:hover {
+    background-color: #000000;
+    color: #970101;
+}
