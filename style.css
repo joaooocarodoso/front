@@ -2,16 +2,17 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    
 }
 
 a {
-    color: #880808;
+    color: rgb(0, 0, 0);
 }
 
 body {
     height: 100vh;
     justify-content: center;
-    background-image: url(img/scythe.jpg);
+    background-image: url(img/download\ \(3\).gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -24,7 +25,7 @@ main {
     background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
     border-radius: 50px;
-    box-shadow: 0px 0px 20px #880808;
+    box-shadow: 0px 0px 20px #a7a7a7;
 }
 
 form {
@@ -46,7 +47,7 @@ form {
 h1 {
     font-family: 'Arial', sans-serif;
     font-size: 32px;
-    color: #880808;
+    color: #acacac;
     text-align: center;
     margin-top: 20px;
 }
@@ -77,10 +78,19 @@ button {
     transition: all 0.5s ease;
 }
 
+#botao{
+    transition: all 0.5s ease;
+}
+
 button:hover {
     background-color: #000000;
     color: rgb(255, 255, 255);
 }
+
+button:hover>#botao {
+    color: rgb(255, 255, 255);
+}
+
 
 .outros {
     margin: 5px;

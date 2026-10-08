@@ -6,7 +6,7 @@
 body {
     height: 100vh;
     justify-content: center;
-    background-image: url(img/download.gif);
+    background-image: url(img/vin.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -50,11 +50,11 @@ main {
     border-radius: 13px;
     background-color: rgb(104, 104, 104);
     width: 400px;
-    height: 455px;
+    height: 390px;
     margin: auto;
     padding: 10px;
     margin-top: 100px;
-    box-shadow: 0px 0px 20px #919191;
+    box-shadow: 0px 0px 20px #777777;
     background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
     border-radius: 50px;
@@ -65,14 +65,14 @@ h1 {
     margin: auto;
     padding: 10px;
     text-align: center;
-    color: #919191;
+    color: #858585;
 }
 
 form {
     width: fit-content;
     margin: auto;
     padding: 10px;
-    color: #f3f3f3;
+    color: #969696;
 }
 
 label {
@@ -97,7 +97,7 @@ input {
 
 button {
     background-color: #ffffff;
-    color: #272727;
+    color: #696969;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -109,3 +109,4 @@ button:hover {
     background-color: #000000;
     color: #ffffff;
 }
+

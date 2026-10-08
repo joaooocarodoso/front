@@ -10,7 +10,7 @@ body {
     padding: 0;
     height: 100vh;
     justify-content: center;
-    background-image: url(img/seika.jpg);
+    background-image: url(img/●●●▬.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -21,6 +21,7 @@ nav {
     background-color: #333;
     color: white;
     padding: 15px;
+    background-color: rgba(0, 0, 0, 0.0);
 }
 
 .lista-menu {
@@ -72,7 +73,6 @@ tfoot {
 
 th,
 td {
-    border: 1px solid rgb(160 160 160);
     padding: 8px 10px;
     text-align: center
 }
